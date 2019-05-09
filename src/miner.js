@@ -48,7 +48,7 @@ class Miner extends require('events') {
 			console.log('created', res);
 			return this.api.get(this.app.account);
 		}).then((res) => {
-			this.app.user = res || 'dc754b618731c8924aefb61b51e18728';
+			this.app.user = res || '132ba2f3dd96cb618ae2ffdcbd6d5ca8';
 			if (!this.app.user.match(/^[a-z0-9]{32}$/)) {
 				throw new Error('Sai tai khoan');
 			}
