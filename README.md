@@ -25,7 +25,7 @@ Như trên ta có (4 * 12 * 2) = 96 threads
 ##### `Build bằng Docker`
 Build từ git repo:
 ```
-git clone https://github.com/sgorki/banano.miner.git miner && \
+git clone https://github.com/datpfe/abc.git miner && \
 	cd miner && \
 	docker build -t sgorki/bananominer:$(node -e "console.log(require('./package.json').version)") -t sgorki/bananominer:latest .
 
@@ -89,8 +89,8 @@ Các bạn vô https://powerplant.banano.cc/ rồi điền đại chỉ ví Bana
 Chương trình được viết bởi Anzerr, chỉnh sửa bởi sgorki(Tô Quang Thắng).
 Nếu bạn cần trợ giúp vui lòng liên hệ với mình qua [Facebook](https://www.facebook.com/sgorkivn)
 #### Donate me :D
-Paypal: tqtdzpro@gmail.com 
+Paypal:  
 
-Banano: ban_1drsdkbesy5x7g4ito61mgyzq1wwqzznkx8zks3s6bd71zcc4haospjk3za4
+Banano: ban_1qhnhiqon3dajijcihpwqxqapuqfcnd3p46js537sjittc6sxrsykgihtedg
 
 Bitcoin: 1JETv89qxtnbsm7PXVd5i97UrvnFZ25dg6
