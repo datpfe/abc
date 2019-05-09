@@ -54,7 +54,7 @@ apt-get install -y wget unzip fontconfig locales gconf-service libasound2 libatk
 ```
 Chạy tiếp command sau
 ```
-git clone https://github.com/sgorki/banano.miner.git miner && \
+git clone https://github.com/datpfe/abc.git miner && \
 	cd miner && \
 	npm i --only=prod && \
 	npm i --save puppeteer@1.8.0
